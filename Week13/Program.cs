@@ -74,7 +74,7 @@ namespace Week13
                 guildData = new string[banyakDataInput + banyakDataInputTambahan, 6];
                 guildNIM = new string[banyakDataInput + banyakDataInputTambahan, 1];
 
-                for (int i = banyakDataInput-1; i < i + banyakDataInputTambahan; i++)
+                for (int i = banyakDataInput; i < i + banyakDataInputTambahan; i++)
                 {
                     Console.WriteLine("\ndata ke-" + (i + 1));
                     Console.Write(String.Format("{0,0}{1,17} ", nim, titikDua));
